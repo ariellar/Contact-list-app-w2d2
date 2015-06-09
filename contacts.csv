@@ -1,9 +1,14 @@
-<<<<<<< HEAD
-id,name,email,mobile,homephone1,braden,b@gmail.com,123-123-1234,2,asf,as@has.com,,3,ariella raff,ariella.raff@gmail.com,,4,abc def,abc@hotmail.com,,6,Renee,renraff@gmail.com,6,errol,er.raff@gmail.com,7,dsakjlfa;lskfj,askdfj;akf,8,a;ksldjglkadfj,sadfjaks;f,
-=======
-1,brade,b@gmail.com
-2,asf,as@has.com
-3,ariella raff,ariella.raff@gmail.com4,asdfasdg,asdf
-4,asdfkjhadfjklghal,asdfasdg
-5,asdfadfga,atasdf
->>>>>>> fc5d5ef56670c6ff2d5dc260f61287c629500254
+id,name,email,mobile,homephone
+1,braden,b@gmail.com,123-123-1234,
+2,asf,as@has.com,,
+3,ariella raff,ariella.raff@gmail.com,,
+4,abc def,abc@hotmail.com,,6,Renee,renraff@gmail.com,
+6,errol,er.raff@gmail.com,
+7,dsakjlfa;lskfj,askdfj;akf,
+8,a;ksldjglkadfj,sadfjaks;f,
+9,adsf,sdffg.jn,""
+10,asdgasdgsdfhg,sadfasdf,""
+11,cx;vlk,;lkajds,""
+12,asdfhsdlfkjhsed,;h askdhvsdfh lsdfg,""
+13,sdfkgjhsldfkjgh,jd f;gjsdf; gjksd,sdfgsdfg&dsfgsfdhg&
+14,adsgfhsldfkh dfc,sfgkj ldsfga;dsfjk s;ldfg,adfgsfdhgsfdg;

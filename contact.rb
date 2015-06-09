@@ -7,11 +7,14 @@ class Contact
 
   attr_reader :id, :name, :email, :phone_numbers
 
-  def initialize(id, name, email, phone_numbers)
+  def initialize(id, name, email, phone_numbers = nil)
+    if phone_numbers
+      puts "phone numbers are: " + phone_numbers.to_s
+    end
     @id = id
     @name = name
     @email = email
-    @phone_numbers = [] # phone_numbers - hashes, where the key is the label for the phonenumber value
+    @phone_numbers = phone_numbers # phone_numbers - hashes, where the key is the label for the phonenumber value
   end
 
   def to_s
@@ -20,7 +23,16 @@ class Contact
   end
 
   def to_a
-    [@id, @name, @email, @phone_numbers]
+    numbers = ''
+    @phone_numbers.each do |num| 
+      if num
+        numbers << num + '&'
+      end
+    end
+    puts numbers
+    numbers = numbers.slice(0..-2)
+    puts numbers
+    [@id, @name, @email, numbers]
   end
  
   ## Class Methods
